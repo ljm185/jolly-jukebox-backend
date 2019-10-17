@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :playlist_songs, only: [:index, :show]
   resources :playlists, only: [:index, :show]
   resources :songs, only: [:index, :show]
   resources :instruments, only: [:index, :show]

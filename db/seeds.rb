@@ -83,3 +83,10 @@
 # Playlist.create(name: "Graduation")
 # Playlist.create(name: "House Party")
 # Playlist.create(name: "Wedding")
+
+# PlaylistSong.create(song_id: 1, playlist_id: 1)
+# PlaylistSong.create(song_id: 2, playlist_id: 2)
+# PlaylistSong.create(song_id: 3, playlist_id: 3)
+# PlaylistSong.create(song_id: 4, playlist_id: 4)
+# PlaylistSong.create(song_id: 5, playlist_id: 5)
+# PlaylistSong.create(song_id: 6, playlist_id: 6)
