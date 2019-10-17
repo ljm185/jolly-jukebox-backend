@@ -76,3 +76,10 @@
 # Song.create(title: "Wonderwall", artist: "Oasis", album: "(What's the Story) Morning Glory?", year: 1995, url: "https://www.youtube.com/watch?v=bx1Bh8ZvH84", image: "https://upload.wikimedia.org/wikipedia/en/b/b1/Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg", genre_id: 1, instrument_id: 1)
 # Song.create(title: "Y.M.C.A.", artist: "Village People", album: "Cruisin'", year: 1978, url: "https://www.youtube.com/watch?v=CeADaAg0f_w", image: "https://upload.wikimedia.org/wikipedia/en/4/4c/Cruisin1978.jpg", genre_id: 7, instrument_id: 3)
 # Song.create(title: "Your Song", artist: "Elton John", album: "Elton John", year: 1970, url: "https://www.youtube.com/watch?v=lwBEqupVOdc", image: "https://upload.wikimedia.org/wikipedia/en/b/bd/Elton_John_-_Elton_John.jpg", genre_id: 7, instrument_id: 7)
+
+# Playlist.create(name: "Beach Party")
+# Playlist.create(name: "Birthday")
+# Playlist.create(name: "Going Away")
+# Playlist.create(name: "Graduation")
+# Playlist.create(name: "House Party")
+# Playlist.create(name: "Wedding")
