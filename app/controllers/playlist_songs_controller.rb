@@ -14,7 +14,7 @@ class PlaylistSongsController < ApplicationController
     end
 
     def create
-        playlist_song = PlaylistSong.new(params.require(:playlist_song).permit(:song_id, playlist_id))
+        playlist_song = PlaylistSong.new(params.require(:playlist_song).permit(:song_id, :playlist_id))
         playlist_song.save
         render json: playlist_song
     end
