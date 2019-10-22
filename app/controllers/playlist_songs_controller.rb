@@ -9,13 +9,23 @@ class PlaylistSongsController < ApplicationController
         render json: playlist_song
     end
 
-    # def new
-    #     playlist_song = PlaylistSong.new
-    # end
+    def new
+        playlist_song = PlaylistSong.new
+    end
 
     def create
         playlist_song = PlaylistSong.new(params.require(:playlist_song).permit(:song_id, :playlist_id))
         playlist_song.save
+        render json: playlist_song
+    end
+
+    def edit
+        playlist_song = PlaylistSong.find(params[:id])
+    end
+
+    def update
+        playlist_song = PlaylistSong.find(params[:id])
+        playlist_song.update(params.require(:playlist_song).permit(:song_id, :playlist_id))
         render json: playlist_song
     end
 
