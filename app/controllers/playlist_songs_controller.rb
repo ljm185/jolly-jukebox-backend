@@ -9,9 +9,9 @@ class PlaylistSongsController < ApplicationController
         render json: playlist_song
     end
 
-    def new
-        playlist_song = PlaylistSong.new
-    end
+    # def new
+    #     playlist_song = PlaylistSong.new
+    # end
 
     def create
         playlist_song = PlaylistSong.new(params.require(:playlist_song).permit(:song_id, :playlist_id))
