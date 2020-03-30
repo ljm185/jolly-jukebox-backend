@@ -142,7 +142,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionview (>= 5.2.3)
   active_model_serializers
   bootsnap (>= 1.1.0)
   byebug
